@@ -17,6 +17,7 @@ def wishme():
     speak('Hello sir I am Lolo 1')
 
 
+# just wrote it but didn't used this function because it would take too long
 def takecommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
