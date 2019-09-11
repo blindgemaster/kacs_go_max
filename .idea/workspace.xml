@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eed1c0b-fcd4-420f-904e-27d6f8a60b8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem_C_Moist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_writing.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Talker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Talker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +15,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem_C_Moist.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -51,10 +46,12 @@
         <option value="$PROJECT_DIR$/Least adjacent number total.py" />
         <option value="$PROJECT_DIR$/Random number sum to 100.py" />
         <option value="$PROJECT_DIR$/The Block Game.py" />
-        <option value="$PROJECT_DIR$/AI_Talker.py" />
         <option value="$PROJECT_DIR$/Google coding practive.py" />
-        <option value="$PROJECT_DIR$/PythonPractice.py" />
         <option value="$PROJECT_DIR$/Google coding practice.py" />
+        <option value="$PROJECT_DIR$/Problem_C_Moist.py" />
+        <option value="$PROJECT_DIR$/random_writing.txt" />
+        <option value="$PROJECT_DIR$/AI_Talker.py" />
+        <option value="$PROJECT_DIR$/PythonPractice.py" />
       </list>
     </option>
   </component>
@@ -69,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,6 +77,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Google coding practice">
+  <component name="RunManager" selected="Python.PythonPractice">
     <configuration name="AI_Talker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kacs_go_max" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Google coding practice" />
         <item itemvalue="Python.PythonPractice" />
         <item itemvalue="Python.AI_Talker" />
+        <item itemvalue="Python.Google coding practice" />
       </list>
     </recent_temporary>
   </component>
@@ -218,12 +215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567246387672</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New file created">
+      <created>1567524345493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567524345493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1038" height="614" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.249501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,6 +290,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New file created" />
     <option name="LAST_COMMIT_MESSAGE" value="New file created" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/PycharmProjects/FirstProgram/Lolo1.py">
@@ -360,16 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AI_Talker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -377,13 +381,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice.py">
+    <entry file="file://$PROJECT_DIR$/random_writing.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_C_Moist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="-137">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/nmap/nmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AI_Talker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/454834390/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1245" column="6" lean-forward="true" selection-start-line="1245" selection-start-column="6" selection-end-line="1245" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/math.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
