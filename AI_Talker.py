@@ -1,5 +1,5 @@
 import pyttsx3
-import speech_recognition as sr
+#import speech_recognition as sr
 import wikipedia
 
 engine = pyttsx3.init('sapi5')
@@ -18,21 +18,21 @@ def wishme():
 
 
 # just wrote it but didn't used this function because it would take too long
-def takecommand():
-    r = sr.Recognizer()
-    with sr.Microphone() as source:
-        print('Listening...')
-        r.pause_threshold = 1
-        audio = r.listen(source)
+#def takecommand():
+ #   r = sr.Recognizer()
+  #  with sr.Microphone() as source:
+   #     print('Listening...')
+    #    r.pause_threshold = 1
+     #   audio = r.listen(source)
 
-    try:
-        print('Recognizing...')
-        query1 = r.recognize_google(audio, language='en-in')
-        print(query1)
-    except:
-        print('Say that again please')
-        return 'None'
-    return query1
+    #try:
+     #   print('Recognizing...')
+      #  query1 = r.recognize_google(audio, language='en-in')
+       # print(query1)
+   # except:
+    #    print('Say that again please')
+     #   return 'None'
+   # return query1
 
 
 if __name__ == '__main__':
