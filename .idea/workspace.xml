@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eed1c0b-fcd4-420f-904e-27d6f8a60b8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Addition_Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonPractice2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRAK4T.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPractice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +18,29 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonPractice.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Addition_Calculator.py">
+        <entry file="file://$PROJECT_DIR$/PythonPractice2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPractice2.py">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="-6028">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,9 +75,9 @@
         <option value="$PROJECT_DIR$/random_writing.txt" />
         <option value="$PROJECT_DIR$/AI_Talker.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/PythonPractice2.py" />
-        <option value="$PROJECT_DIR$/PythonPractice.py" />
         <option value="$PROJECT_DIR$/Addition_Calculator.py" />
+        <option value="$PROJECT_DIR$/PythonPractice.py" />
+        <option value="$PROJECT_DIR$/PythonPractice2.py" />
       </list>
     </option>
   </component>
@@ -88,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,7 +104,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Addition_Calculator">
+  <component name="RunManager" selected="Python.PythonPractice2">
     <configuration name="AI_Talker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kacs_go_max" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,9 +252,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Addition_Calculator" />
-        <item itemvalue="Python.PythonPractice" />
         <item itemvalue="Python.PythonPractice2" />
+        <item itemvalue="Python.PythonPractice" />
+        <item itemvalue="Python.Addition_Calculator" />
         <item itemvalue="Python.AI_Talker" />
         <item itemvalue="Python.Google coding practice" />
       </list>
@@ -293,9 +297,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1038" height="614" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.249501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -550,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67694">
@@ -567,23 +560,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonPractice2.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="9504">
+          <caret line="434" column="1" lean-forward="true" selection-start-line="434" selection-start-column="1" selection-end-line="434" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition_Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonPractice.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addition_Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6028">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonPractice2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="64" />
         </state>
       </provider>
     </entry>
