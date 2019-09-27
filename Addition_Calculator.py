@@ -7,7 +7,6 @@ class Calculator:
         self.a = []
         root.configure(background='purple')
         root.title('Calculator By Khizar')
-        root.geometry('300x200')
         frame0 = Frame(root)
         frame0.pack(side=TOP)
         label1 = Label(frame0, text='Calculator')
@@ -112,7 +111,5 @@ class Calculator:
 
 
 root1 = Tk()
-root1.resizable(width=False, height=False)
-root1.wm_iconbitmap('download.ico')
 data_sort = Calculator(root1)
 root1.mainloop()

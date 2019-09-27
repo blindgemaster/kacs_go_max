@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eed1c0b-fcd4-420f-904e-27d6f8a60b8d" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRAK4T.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonPractice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download.jpg" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/kacs_go_max.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kacs_go_max.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Talker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Talker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Addition_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Addition_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPractice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPractice2.py" afterDir="false" />
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -48,6 +59,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -59,6 +72,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -106,10 +120,13 @@
       </pane>
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1RNsRCrdZjmiMDSBnUrgLY02ENg" />
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AI_Talker.py" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,8 +270,13 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.PythonPractice2" />
+<<<<<<< HEAD
         <item itemvalue="Python.PythonPractice" />
         <item itemvalue="Python.Addition_Calculator" />
+=======
+        <item itemvalue="Python.Addition_Calculator" />
+        <item itemvalue="Python.PythonPractice" />
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
         <item itemvalue="Python.AI_Talker" />
         <item itemvalue="Python.Google coding practice" />
       </list>
@@ -295,6 +317,7 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1038" height="614" extended-state="6" />
     <layout>
@@ -336,26 +359,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+=======
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -384,7 +396,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/Downloads/Compressed/3dstarfield/3dstarfield.py</url>
+          <url>file://$PROJECT_DIR$/../Compressed/3dstarfield/3dstarfield.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -398,6 +410,7 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/PycharmProjects/FirstProgram/Lolo1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,4 +612,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> acd2b859413fa9acc01f373b663fd156de7402b4
 </project>
