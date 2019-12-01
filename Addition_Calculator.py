@@ -42,12 +42,74 @@ class Calculator:
         button_0.pack(side=LEFT)
         button_add = Button(frame2, text='+', command=self.inserting_add)
         button_add.pack(side=BOTTOM)
-        button_equals = Button(frame2, text='=', command=self.equals)
-        button_equals.pack(side=BOTTOM)
+        self.button_equals = Button(frame2, text='=', command=self.equals)
+        self.button_equals.pack(side=BOTTOM)
         button_delete = Button(frame2, text='del', command=self.delete)
         button_delete.pack(side=BOTTOM)
         button_quit = Button(frame3, text='quit', command=quit)
         button_quit.pack(side=BOTTOM)
+        root.bind('<Return>', self.equals2)
+
+    def equals2(self, a):
+        e = self.address.get()
+        index = 0
+        a = ''
+        number_list = []
+        for items in range(len(e)):
+            if e[items] == '+' or e[items] == '/' or e[items] == '*' or e[items] == '-':
+                number_list.append(a)
+                number_list.append(e[items])
+                a = ''
+            else:
+                a = a + e[items]
+        number_list.append(a)
+        while True:
+            if number_list[index] == '/':
+                total = float(number_list[index - 1]) / float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '/' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '*':
+                total = float(number_list[index - 1]) * float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '*' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '+':
+                total = float(number_list[index - 1]) + float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '+' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '-':
+                total = float(number_list[index - 1]) - float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '-' not in number_list:
+                break
+            index += 1
+        total = number_list[0]
+        self.address.delete(0, END)
+        self.address.insert(0, total)
 
     def inserting1(self):
         self.address.insert(self.index, 1)
@@ -94,10 +156,63 @@ class Calculator:
         self.index += 1
 
     def equals(self):
-        self.a = self.address.get().split('+')
-        total = 0
-        for items in self.a:
-            total = int(items) + total
+        e = self.address.get()
+        index = 0
+        a = ''
+        number_list = []
+        for items in range(len(e)):
+            if e[items] == '+' or e[items] == '/' or e[items] == '*' or e[items] == '-':
+                number_list.append(a)
+                number_list.append(e[items])
+                a = ''
+            else:
+                a = a + e[items]
+        number_list.append(a)
+        while True:
+            if number_list[index] == '/':
+                total = float(number_list[index - 1]) / float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '/' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '*':
+                total = float(number_list[index - 1]) * float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '*' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '+':
+                total = float(number_list[index - 1]) + float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '+' not in number_list:
+                break
+            index += 1
+        while True:
+            if number_list[index] == '-':
+                total = float(number_list[index - 1]) - float(number_list[index + 1])
+                number_list.pop(index + 1)
+                number_list.pop(index)
+                number_list.pop(index - 1)
+                number_list.insert(index - 1, str(total))
+                index = 0
+            if '-' not in number_list:
+                break
+            index += 1
+        total = number_list[0]
         self.address.delete(0, END)
         self.address.insert(0, total)
 

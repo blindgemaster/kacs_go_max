@@ -54,12 +54,29 @@ def turn_finder(counter):
 
 
 def diagnols(a, b, c, d, e, f, g, h, i):
+    if a == '':
+        a = 1
+    if b == '':
+        b = 2
+    if c == '':
+        c = 3
+    if d == '':
+        d = 4
+    if e == '':
+        e = 5
+    if f == '':
+        f = 6
+    if g == '':
+        g = 7
+    if h == '':
+        h = 8
+    if i == '':
+        i = 9
     if a == b and b == c or a == d and d == g or b == e and e == h or c == f and f == i or d == e and e == f or g == h \
             and h == i or a == e and e == i or c == e and e == g:
-        flag = True
+        return True
     else:
-        flag = False
-    return flag
+        return False
 
 
 def decider(flag):
